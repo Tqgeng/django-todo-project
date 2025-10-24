@@ -8,6 +8,7 @@ class TodoItemAdmin(admin.ModelAdmin):
     list_display = (
         "id",
         "title",
+        "description",
         "complete",
     )
     list_display_links = (
